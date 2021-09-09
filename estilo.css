@@ -1,0 +1,64 @@
+body{
+    background-image: url(./fotos/LOGO_BICI.jpeg);
+    background-position:center center;
+    background-repeat:no-repeat;
+    background-size:unset;
+    background-attachment: fixed;
+    background-size: 500px;
+  
+    }
+.titulo1{
+    color:maroon;
+    font-size: 35px;
+    font-family: Impact;
+    font-variant-position: sub;
+    font-weight: normal;
+    font-style: italic;
+    text-align: center;
+
+    
+}
+.linked{
+    color:orange;
+    border-style:double;
+    border-radius: 50px;
+    line-height: 30px;
+    width: 150px;
+    
+}
+.image{
+    background-position-x: center;
+}
+
+@media (max-width:500px){
+    .responsive {
+      width: 100%;
+      text-align: center;
+    }
+     
+    footer{
+      bottom: 0
+     }
+  
+    .imgresponsive {
+       width: 300px;
+    }
+  }
+  
+  @media  (min-width:500px) and (max-width:1024px){
+  
+      .reponsive {
+        width: 70%; 
+      }
+      .imgresponsive {
+        width: 210px;
+      }
+    }
+    @media (min-width:1024px) {
+      .responsive {
+        width: 50%;
+      }
+      .imgresponsive {
+        width: 210px;
+      }
+    } 
